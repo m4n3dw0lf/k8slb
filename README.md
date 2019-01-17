@@ -15,18 +15,19 @@
 
 - **Example**:
 
-- K8s cluster exposed service running on port 30115
-- 3 Nodes, 192.168.0.108 - 192.168.0.109 - 192.168.0.110
+  - K8s cluster exposed service running on port 30115
 
-```
-docker run -it -e "SERVER_NAME=k8s-cluster.acme.com" \
--e "PORT=80" \
--e "SERVICE_PORT=30115" \
--e "NODE_1=192.168.0.108" \
--e "NODE_2=192.168.0.109" \
--e "NODE_3=192.168.0.110" \
-m4n3dw0lf/k8slb
-```
+  - 3 Nodes, 192.168.0.108 - 192.168.0.109 - 192.168.0.110
+
+  ```
+  docker run -it -e "SERVER_NAME=k8s-cluster.acme.com" \
+  -e "PORT=80" \
+  -e "SERVICE_PORT=30115" \
+  -e "NODE_1=192.168.0.108" \
+  -e "NODE_2=192.168.0.109" \
+  -e "NODE_3=192.168.0.110" \
+  m4n3dw0lf/k8slb
+  ```
 
 - **Output**:
 ```
