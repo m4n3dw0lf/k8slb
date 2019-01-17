@@ -1,5 +1,5 @@
 k8slb:
-  build: .
+  image: m4n3dw0lf/k8slb
   container_name: k8slb
   ports:
     - 80:80
