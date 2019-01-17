@@ -20,7 +20,8 @@
   - 3 Nodes, 192.168.0.108 - 192.168.0.109 - 192.168.0.110
 
   ```
-  docker run -it -e "SERVER_NAME=k8s-cluster.acme.com" \
+  docker run -it -p 80:80 \
+  -e "SERVER_NAME=k8s-cluster.acme.com" \
   -e "PORT=80" \
   -e "SERVICE_PORT=30115" \
   -e "NODE_1=192.168.0.108" \
