@@ -1,0 +1,15 @@
+k8slb:
+  build: .
+  container_name: k8slb
+  ports:
+    - 80:80
+  environment:
+    - SERVER_NAME
+    - PORT
+    - SERVICE_PORT
+    - NODE_1
+    - NODE_2
+    - NODE_3
+    - NODE_4
+    - NODE_5
+
