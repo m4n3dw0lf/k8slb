@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/docker/build/m4n3dw0lf/k8slb.svg)
 
-**Kubernetes On-Premisse Load Balancer fully automized with Nginx**
+**Kubernetes On-Premisse External Load Balancer with Nginx**
 
 - **Environment Variables**
 
